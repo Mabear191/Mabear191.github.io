@@ -9,12 +9,15 @@
  <body>
    <script>
    function game() {
+     var rand= Math.round(Math.random()*10)
      var input = document.getElementById("input").value;
-      if (input == rand){
-        document.getElementById("Win").innerHTML = "You win"
-      }else{
-        console.log "Try again"
-  }}
+    // document.getElementById("Win").innerHTML = "You win"
+    if (input==rand) {
+
+    } else {
+
+    }
+  }
   </script>
   <p>
     <center>
@@ -32,9 +35,9 @@
       <button type="button" onclick="game()">Enter</button>
     </center>
   </p>
-   <center>
-  <p id="Win">
-  </p>
-   </center>
+    <center>
+      <p id="Win">
+      </p>
+    </center>
  </body>
 </html>
