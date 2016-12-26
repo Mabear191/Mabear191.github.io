@@ -10,8 +10,11 @@
    <script>
    function game() {
      var input = document.getElementById("input").value;
-     // document.getElementById("Win").innerHTML = 'You win'
-   }
+      if (input == rand){
+        document.getElementById("Win").innerHTML = "You win"
+      }else{
+        console.log "Try again"
+  }}
   </script>
   <p>
     <center>
